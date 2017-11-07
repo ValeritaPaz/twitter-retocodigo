@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Twitter</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+	<!--seccion de encabezado-->
+	<header class="encabezado"><h1>Twitter</h1></header>
+	<!--seccion estatica de presentacion-->
+	<section>
+		<div class="static">
+			<h3>Reto de Código</h3>
+			<p>Hola,</p>
+			<p>soy front-end developer jr.</p>
+			<hr>
+			<h5>CÓDIGO</h5>
+		</div>
+	<!--seccion de comentarios-->
+		<div class="enter-comments">
+		<textarea class="txt" id="comment" cols="55" rows="5" onkeyup="countCharacters()" placeholder="¿Qué estás pensando?"></textarea>
+		<button type="button" class="boton" id="btn" onclick="tweet()">TWEET</button>
+		<input class="count" id="counter" placeholder="140" disabled>
+		</div>
+	</section>
+	<div id="content"></div>
+	
+	<script src="assets/js/main.js"></script>
+</body>
+</html>

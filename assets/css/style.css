@@ -1,0 +1,95 @@
+body {
+	margin: 0 auto;
+	background-image: url("../img/img-music.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.encabezado {
+	height: 10%;
+	background: #4d5bc9;
+	color: #fff;
+	padding: 5px;
+}
+
+.encabezado h1 {
+	text-align: center;
+}
+
+.static {
+	display: inline-block;
+	background: #fff;
+	width: 500px;
+	height: 200px;
+	margin: 20px 70px;
+	margin-right: 10px;
+}
+
+.static h3, p, h5 {
+	margin-left: 20px;
+}
+
+.static h5 {
+	color: navy;
+	font-weight: bolder;
+}
+
+.box {
+	display: inline-block;
+	clear: both;
+	overflow: none;
+}
+
+.enter-comments {
+	float: right;
+	display: inline-block;
+	margin-top: 25px;
+	margin-right: 200px;
+	background: #fff;
+	width: 500px;
+}
+
+.txt {
+	margin: 10px;
+	border: none;
+	border-bottom: 2px solid #7BA5E5;
+	outline: 0 none;
+	resize: none;
+}
+
+.boton {
+	margin: 10px;
+	padding: 10px 20px;
+	border-radius: 5px;
+	background: #7BA5E5;
+	color: #fff;
+	font-weight: bold;
+}
+
+.count {
+	border-style: none;
+	margin-left: 330px;
+	margin-bottom: 0;
+	width: 50px;
+	background: transparent;
+	color: #7BA5E5;
+	font-weight: bolder;
+}
+
+#content {
+	display: block;
+	margin:0 50px;
+}
+
+#content div {
+	padding: 0 5px;
+	margin-bottom: 0.5em;
+	margin-left: 18px;
+	/*outline: 0.1em solid #e5e3f2;*/
+	background-color: #fff;
+}
+
+span {
+	padding-left: 20px;
+}

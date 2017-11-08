@@ -16,10 +16,8 @@ function tweet() {
 		var paragraph = document.createElement("p");
 		var text = document.createTextNode(comment);
 		var hour = document.createElement("span");
-		var newHour = new Date();
-		var setHour = newHour.getHours()+ ":"+ newHour.getMinutes();
-		hour.textContent = setHour;
-
+		hour.textContent = moment().format("hh:mm a");
+		
 		paragraph.appendChild(text);
 		
 		newComment.appendChild(paragraph);
